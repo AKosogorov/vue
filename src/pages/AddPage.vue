@@ -92,7 +92,7 @@ export default {
     },
 
     toMain() {
-      this.$router.push('/vue/')
+      this.$router.push('/')
     }
   },
 }

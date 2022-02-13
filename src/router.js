@@ -7,11 +7,11 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/vue/',
+    path: '/',
     component: MainPage
   },
   {
-    path: '/vue/add',
+    path: '/add',
     component: AddPage
   }
 ]
