@@ -1,5 +1,7 @@
 module.exports = {
-  publicPath: '/vue/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/vue/'
+    : '/',
   transpileDependencies: [
     'vuetify'
   ]

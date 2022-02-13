@@ -1,5 +1,5 @@
 {
-  "name": "test_analyticum--1",
+  "name": "vue",
   "version": "1.0.0",
   "scripts": {
     "serve": "vue-cli-service serve",
